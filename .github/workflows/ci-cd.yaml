@@ -47,6 +47,6 @@ jobs:
           username: ${{ secrets.MINIKUBE_SSH_USER }}
           key: ${{ secrets.MINIKUBE_SSH_KEY }}
           script: |
-            cd /path/to/your/local/project
+            cd /Users/suhas/Downloads/sampleCICD
             git pull origin main
             kubectl apply -f deployment.yaml
