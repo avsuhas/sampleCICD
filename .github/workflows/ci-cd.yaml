@@ -46,6 +46,7 @@ jobs:
           host: ${{ secrets.MINIKUBE_HOST }}
           username: ${{ secrets.MINIKUBE_SSH_USER }}
           key: ${{ secrets.MINIKUBE_SSH_KEY }}
+          port: 22
           script: |
             cd /Users/suhas/Downloads/sampleCICD
             git pull origin main
