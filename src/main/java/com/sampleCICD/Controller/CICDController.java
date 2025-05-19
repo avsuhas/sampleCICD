@@ -10,6 +10,6 @@ public class CICDController {
 
     @GetMapping
     public String sayHello() {
-        return "Hello, World! after CICD";
+        return "Hello, World! TEST";
     }
 }
