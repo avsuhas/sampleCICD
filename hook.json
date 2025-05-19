@@ -1,0 +1,13 @@
+[
+  {
+    "id": "deploy-myapp",
+    "execute-command": "/Users/suhas/Downloads/sampleCICD/deploy.sh",
+    "command-working-directory": "/Users/suhas/Downloads/sampleCICD",
+    "pass-arguments-to-command": [
+      {
+        "source": "string",
+        "name": "from-github"
+      }
+    ]
+  }
+]
